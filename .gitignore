@@ -1,0 +1,69 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build artifacts
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log
+*.log.*
+*.out
+*.pid
+*.gz
+
+# Runtime data
+pids
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Environment files
+.env
+.env.*.local
+.env.test
+.env.development
+.env.production
+
+# IDE / Editor junk
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+.docker/
+*.tar
+
+# Jest cache
+jest.config.js.map
+.jest/
+
+# Mongo data (if using local volume for dev)
+data/db
+dump/
+
+# Reports
+*.tgz
+*.zip
+*.tar.gz
+
+# Optional: lockfiles (if you don’t want them in repo)
+# package-lock.json
+# yarn.lock
